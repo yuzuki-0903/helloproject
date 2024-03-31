@@ -1,5 +1,5 @@
 from django.http import HttpResponse
 
 def helloworldfunc(request):
-    responseobject = HttpResponse('helloworld')
+    responseobject = HttpResponse('hello world')
     return responseobject

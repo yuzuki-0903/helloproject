@@ -20,5 +20,5 @@ from .views import helloworldfunc
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('helloworldurl/', helloworldfunc)
+    path('helloworldurl/', helloworldfunc),
 ]
